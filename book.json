@@ -1,0 +1,13 @@
+{
+    "title": "悦玩工作记录",
+    "description": "记录 悦玩工作记录",
+    "author": "xiumao",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+   "plugins": [
+        "-livereload",
+        "-search"
+    ]
+}
