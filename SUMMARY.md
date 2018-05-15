@@ -2,7 +2,7 @@
 
 * [介绍](README.md)
 * [工具]()
-	* [谷歌插件](Google_ext/gg-extension.md)
+	* [谷歌插件](GoogleExt/extension.md)
 	* [开发工具](Tools/Tools.md)
 	* [GitBook](OtherBlog/GitBook.md)
 * [Linux]()
