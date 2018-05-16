@@ -1,5 +1,3 @@
-# lnmp
-
 # lnmp-install
 
 ## PHP
