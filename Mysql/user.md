@@ -17,14 +17,18 @@
 
         * 第二个xiumao表示密码
 
-    * 执行 flush privileges; 命令立即生效
-
-        * flush privileges;
-
     * 查询数据库的用户（看到如下内容表示创建新用户成功了）
 
         * SELECT DISTINCT CONCAT('User: ''',user,'''@''',host,''';') AS query FROM mysql.user;
 
     *  修改用户密码
 
-        * set password for root@localhost = password('123');  
+        * set password for root@localhost = password('123');
+
+    *  删除用户
+
+        * Delete FROM mysql.user Where User='xiumao';
+
+    * 执行 flush privileges; 命令立即生效
+
+        * flush privileges;
