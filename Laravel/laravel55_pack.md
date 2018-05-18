@@ -21,7 +21,7 @@
 
 * 部署
 
-    * 时区设置 本地化设置
+    1. 时区设置 本地化设置
 
         > 文件 `wx.hzyuewan.com\config\app.php`
 
@@ -29,13 +29,13 @@
 
         > `'locale' => 'en'` => `'locale' => 'zh-CN'`
 
-    * 索引长度 & MySQL / MariaDB
+    1. 索引长度 & MySQL / MariaDB
 
         > 文件 `wx.hzyuewan.com\app\Providers\AppServiceProvider.php`
 
         > boot方法 加入 `Schema::defaultStringLength(191)`;
 
-    * 数据库配置 .env文件
+    1. 数据库配置 .env文件
 
         > 修改
 
@@ -53,7 +53,7 @@
 
             `APP_LOG=daily`
 
-    * laravel-admin 安装
+    1. laravel-admin 安装
 
         > `php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"`
 
