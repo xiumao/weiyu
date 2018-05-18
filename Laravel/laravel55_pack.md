@@ -19,44 +19,44 @@
 
     composer require encore/laravel-admin 1.5.*
 
-* 部署
+## 部署
 
-    1. 时区设置 本地化设置
+1. 时区设置 本地化设置
 
-        > 文件 `wx.hzyuewan.com\config\app.php`
+    > 文件 `wx.hzyuewan.com\config\app.php`
 
-        > `'timezone' => 'UTC'` => `'timezone' => 'PRC'`
+    > `'timezone' => 'UTC'` => `'timezone' => 'PRC'`
 
-        > `'locale' => 'en'` => `'locale' => 'zh-CN'`
+    > `'locale' => 'en'` => `'locale' => 'zh-CN'`
 
-    1. 索引长度 & MySQL / MariaDB
+1. 索引长度 & MySQL / MariaDB
 
-        > 文件 `wx.hzyuewan.com\app\Providers\AppServiceProvider.php`
+    > 文件 `wx.hzyuewan.com\app\Providers\AppServiceProvider.php`
 
-        > boot方法 加入 `Schema::defaultStringLength(191)`;
+    > boot方法 加入 `Schema::defaultStringLength(191)`;
 
-    1. 数据库配置 .env文件
+1. 数据库配置 .env文件
 
-        > 修改
+    > 修改
 
-            `DB_HOST=127.0.0.1`
+        `DB_HOST=127.0.0.1`
 
-            `DB_PORT=3306`
+        `DB_PORT=3306`
 
-            `DB_DATABASE=wechat`
+        `DB_DATABASE=wechat`
 
-            `DB_USERNAME=root`
+        `DB_USERNAME=root`
 
-            `DB_PASSWORD=root`
+        `DB_PASSWORD=root`
 
-        > 新增
+    > 新增
 
-            `APP_LOG=daily`
+        `APP_LOG=daily`
 
-    1. laravel-admin 安装
+1. laravel-admin 安装
 
-        > `php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"`
+    > `php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"`
 
-        > `php artisan admin:install`
+    > `php artisan admin:install`
 
-        > 默认账号密码 `admin` `admin`
+    > 默认账号密码 `admin` `admin`
