@@ -18,8 +18,14 @@
     git remote add origin https://gitee.com/xxx/test.git
     git push -u origin master
 
-##已有项目?
+## 已有项目?
 
     cd existing_git_repo
     git remote add origin https://gitee.com/xxx/test.git
     git push -u origin master
+
+## 记住密码
+
+    git config --global --list
+
+    git config --global credential.helper store
