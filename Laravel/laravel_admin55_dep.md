@@ -61,16 +61,35 @@
 
     > 默认账号密码 `admin` `admin`
 
-1. Laravel-admin upload setting.
+1. Laravel-admin upload setting
 
-    > 文件 wx.hzyuewan.com\config\admin.php
+    > 文件 wx.hzyuewan.com\config\filesystems.php
 
-    > `upload['disk'] => 'admin'` => `upload['disk'] => 'public'`
+    > 代码示例
+
+        'disks' => [
+            ... ,
+
+            'admin' => [
+                'driver' => 'local',
+                'root' => public_path('uploads'),
+                'visibility' => 'public',
+                'url' => env('APP_URL').'/uploads',
+            ],
+        ],
 
 1. laravel-admin-extensions/log-viewer
 
-    > composer require laravel-admin-ext/log-viewer -vvv
+    > `composer require laravel-admin-ext/log-viewer -vvv`
 
-    > php artisan admin:import log-viewer
+    > `php artisan admin:import log-viewer`
 
     Open `http://localhost/admin/logs`.
+
+## 开发
+
+1. 创建 模型,迁移表,控制器
+
+    > `php artisan make:model Admin/Models/OfficialAccount -m`
+
+    > `php artisan admin:make OfficialAccountController --model=App\\Admin\\Models\\OfficialAccount`
