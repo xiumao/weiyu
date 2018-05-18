@@ -60,3 +60,11 @@
     > `php artisan admin:install`
 
     > 默认账号密码 `admin` `admin`
+
+1. laravel-admin-extensions/log-viewer
+
+    > composer require laravel-admin-ext/log-viewer -vvv
+
+    > php artisan admin:import log-viewer
+
+    Open `http://localhost/admin/logs`.
