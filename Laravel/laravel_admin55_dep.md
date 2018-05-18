@@ -61,6 +61,12 @@
 
     > 默认账号密码 `admin` `admin`
 
+1. Laravel-admin upload setting.
+
+    > 文件 wx.hzyuewan.com\config\admin.php
+
+    > `upload['disk'] => 'admin'` => `upload['disk'] => 'public'`
+
 1. laravel-admin-extensions/log-viewer
 
     > composer require laravel-admin-ext/log-viewer -vvv
