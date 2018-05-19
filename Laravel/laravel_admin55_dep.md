@@ -19,6 +19,12 @@
 
     composer require encore/laravel-admin 1.5.*
 
+## IDE提示
+
+> [laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper)
+
+    composer require barryvdh/laravel-ide-helper
+
 ## 部署
 
 1. 时区设置 本地化设置
