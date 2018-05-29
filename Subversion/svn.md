@@ -33,3 +33,21 @@
     5. 线上发布 svn export -r 2 url(tag)
 
     6. 回滚 查看所有tags svn info url(tags) 获取前一个tag的版本号 1  svn export -r 1 url(tags)
+
+
+
+    管理员
+
+        用户 CURD
+
+        项目 CURD
+
+    发布记录
+
+        测试按钮 发布代码到测试机器
+
+            自动生成版本号
+
+        上线按钮 发布代码到线上机器（下拉选版本）
+
+        回滚按钮 可以回滚到指定版本（下拉选版本）
