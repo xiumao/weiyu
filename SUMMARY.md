@@ -3,7 +3,7 @@
 * [介绍](README.md)
 * Api
     * [apidoc](Api/apidoc.md)
-    * [showdoc.md](Api/showdoc.md)
+    * [showdoc](Api/showdoc.md)
 * Docker
     * [docker](Docker/docker.md)
 * Git
@@ -15,7 +15,7 @@
 * Laravel
     * [demo](Laravel/demo.md)
     * [laravel_admin55_dep.md](Laravel/laravel_admin55_dep.md)
-    * [package.md](Laravel/package.md)
+    * [package](Laravel/package.md)
 * links
     * [links.md](links/links.md)
     * [samba](links/samba.md)
