@@ -2,6 +2,9 @@
 
 ### 搭建命令
 
+> [L2TP/IPSec一键安装脚本](https://teddysun.com/448.html)
+
+
 	wget --no-check-certificate https://raw.githubusercontent.com/teddysun/across/master/l2tp.sh
 	chmod +x l2tp.sh
 	./l2tp.sh

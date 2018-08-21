@@ -128,9 +128,10 @@
 
         修改 edit update
 
-            {{ method_field('PUT') }}
+            
+            `{{ method_field('PUT') }}`
 
-            {{ csrf_field() }}
+            `{{ csrf_field() }}`
 
         删除 delete
 
