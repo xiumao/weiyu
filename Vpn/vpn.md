@@ -22,3 +22,9 @@
 
 	:wq！ #保存退出
 	service network restart #重启网络
+
+	systemctl start|stop|restart|status ipsec （CentOS7 下使用）
+	systemctl start|stop|restart xl2tpd （CentOS7 下使用）
+
+	/etc/xl2tpd/xl2tpd.conf  
+		local_ip = 内网IP
