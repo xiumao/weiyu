@@ -57,7 +57,7 @@
 * Wechat
   * [account](Wechat/account.md)
   * [wx](Wechat/wx.md)
-  * demo
+  * dem
 
 
 
