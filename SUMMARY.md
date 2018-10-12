@@ -2,62 +2,61 @@
 
 * [介绍](README.md)
 * Api
-  * [apidoc](Api/apidoc.md)
-  * [showdoc](Api/showdoc.md)
+    * [apidoc](Api/apidoc.md)
+    * [showdoc](Api/showdoc.md)
 * Docker
-  * [docker](Docker/docker.md)
+    * [docker](Docker/docker.md)
 * Git
-  * [git](Git/git.md)
+    * [git](Git/git.md)
 * GoogleExt
-  * [谷歌插件](GoogleExt/extension.md)
+    * [谷歌插件](GoogleExt/extension.md)
 * Interface
-  * [interface](Interface/interface.md)
+    * [interface](Interface/interface.md)
 * Laravel
-  * [demo](Laravel/demo.md)
-  * [laravel\_admin55\_dep.md](Laravel/laravel_admin55_dep.md)
-  * [package](Laravel/package.md)
+    * [demo](Laravel/demo.md)
+    * [laravel_admin55_dep.md](Laravel/laravel_admin55_dep.md)
+    * [package](Laravel/package.md)
 * links
-  * [links.md](links/links.md)
-  * [samba](links/samba.md)
+    * [links.md](links/links.md)
+    * [samba](links/samba.md)
 * Linux
-  * [lnmp](Linux/lnmp.md)
-  * [mysqldump](Linux/mysqldump.md)
-  * [vim](Linux/vim.md)
-  * [yum.md](Linux/yum.md)
+    * [lnmp](Linux/lnmp.md)
+    * [mysqldump](Linux/mysqldump.md)
+    * [vim](Linux/vim.md)
+    * [yum.md](Linux/yum.md)
 * Mongo
 * Mysql
-  * [dml](Mysql/dml.md)
-  * [index](Mysql/index.md)
-  * [user](Mysql/user.md)
+    * [dml](Mysql/dml.md)
+    * [index](Mysql/index.md)
+    * [user](Mysql/user.md)
 * Nginx
 * Optimize
-  * [optimize](Optimize/optimize.md)
+    * [optimize](Optimize/optimize.md)
 * OtherBlog
-  * [GitBook](OtherBlog/GitBook.md)
+    * [GitBook](OtherBlog/GitBook.md)
 * People
-  * [apology](People/apology.md)
+    * [apology](People/apology.md)
 * PHP
 * Phpstorm
-  * [config](Phpstorm/config.md)
+    * [config](Phpstorm/config.md)
 * Problem
-  * [20180529](Problem/20180529.md)
+    * [20180529](Problem/20180529.md)
 * Rsync
-  * [rsync](Rsync/rsync.md)
+    * [rsync](Rsync/rsync.md)
 * Ssh
-  * [ssh\_gui](Ssh/ssh_gui.md)
+    * [ssh_gui](Ssh/ssh_gui.md)
 * Subversion
-  * [svn](Subversion/svn.md)
-  * [svnserve](Subversion/svnserve.md)
+    * [svn](Subversion/svn.md)
+    * [svnserve](Subversion/svnserve.md)
 * Tools
-  * [开发工具](Tools/Tools.md)
+    * [开发工具](Tools/Tools.md)
 * Vpn
-  * [vpn](Vpn/vpn.md)
+    * [vpn](Vpn/vpn.md)
 * walle
-  * [walle](walle/walle.md)
+    * [walle](walle/walle.md)
 * Wechat
-  * [account](Wechat/account.md)
-  * [wx](Wechat/wx.md)
-  * dem
-
-
+    * [account](Wechat/account.md)
+    * [wx](Wechat/wx.md)
+* operate
+    * [数据指标 | 游戏数据分析指标](Operate/operate.md)
 
