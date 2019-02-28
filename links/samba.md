@@ -5,6 +5,8 @@
 ### 安装
 
     yum -y install samba
+    
+    yum -y install samba-client 
 
     systemctl restart smb
 
